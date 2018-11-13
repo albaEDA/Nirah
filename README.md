@@ -1,11 +1,18 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/AaronKel/Nirah/raw/master/nirah.png" alt="Nirah" width="150" align="right"></a>
+  <br>
+  Nirah
+  <br>
+</h1>
+
+<h4 align="center">Nirah is a project aimed at automatically wrapping verilator C++ models in python in order for high level, extendable control and verification of verilog systems.</h4>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/AaronKel/Nirah.svg)](https://github.com/AaronKel/Nirah/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-
-# Nirah
-Nirah is a project aimed at automatically wrapping verilator C++ models in python in order for high level, extendable control and verification of verilog systems.
 
 ## Getting Started
 
