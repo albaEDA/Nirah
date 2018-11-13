@@ -1,4 +1,4 @@
-<img src="https://github.com/AaronKel/Nirah/raw/master/nirah.png" alt="Nirah" width="130" align="right">
+<img src="https://github.com/AaronKel/Nirah/raw/master/nirah.png" alt="Nirah" width="150" align="right">
 <h1 align="center">
   Nirah
 </h1>
