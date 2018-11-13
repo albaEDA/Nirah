@@ -1,10 +1,6 @@
 <img src="https://github.com/AaronKel/Nirah/raw/master/nirah.png" alt="Nirah" width="150" align="right">
 <h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"></a>
-  <br>
   Nirah
-  <br>
 </h1>
 
 <h4 align="center">Nirah is a project aimed at automatically wrapping verilator C++ models in python in order for high level, extendable control and verification of verilog systems.</h4>
