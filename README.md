@@ -1,6 +1,7 @@
+<img src="https://github.com/AaronKel/Nirah/raw/master/nirah.png" alt="Nirah" width="150" align="right">
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/AaronKel/Nirah/raw/master/nirah.png" alt="Nirah" width="150" align="right"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"></a>
   <br>
   Nirah
   <br>
