@@ -39,6 +39,9 @@ This will generate a wrapped libary that you can perform tests on an example of 
 python3 up_counter_tb.py
 ```
 
+### Example
+<img src="https://github.com/AaronKel/Nirah/blob/master/nirah_autocomplete.gif?raw=true" alt="Nirah" width="150" align="right">
+
 ## Authors
 
 * **Aaron Kelly** - *Initial work* - [AaronKel](https://github.com/AaronKel)
