@@ -40,7 +40,7 @@ python3 up_counter_tb.py
 ```
 
 ## Example
-<img src="https://raw.githubusercontent.com/AaronKel/Nirah/master/nirah_autocomplete.gif?token=AH0PRPL7tUOjMajDppD6E0fUPCxASa6eks5cNQTFwA%3D%3D" alt="Nirah" align="left">
+<img src="https://github.com/AaronKel/Nirah/raw/e4189df154ed1a72a64ef0d4a1f652b2dbac26af/nirah_autocomplete.gif" alt="Nirah" align="left">
 <br>
 
 The following GIF shows the heirachy autocompletion within Visual Code.
