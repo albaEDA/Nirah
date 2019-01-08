@@ -40,7 +40,7 @@ python3 up_counter_tb.py
 ```
 
 ### Example
-<img src="https://github.com/AaronKel/Nirah/blob/master/nirah_autocomplete.gif?raw=true" alt="Nirah" width="150" align="right">
+<img src="https://raw.githubusercontent.com/AaronKel/Nirah/master/nirah_autocomplete.gif?token=AH0PRPL7tUOjMajDppD6E0fUPCxASa6eks5cNQTFwA%3D%3D" alt="Nirah" align="right">
 
 ## Authors
 
