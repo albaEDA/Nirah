@@ -51,6 +51,7 @@ Nirah provides minimal support for arrays.
 The project is in it's intial stages and can synthesize large designs, however there are bugs with tracing on some larger designs with work arounds already implimented
 <br>
 <br>
+<br>
 ## Features
 - [x] Trace dumping (VCD)
 
