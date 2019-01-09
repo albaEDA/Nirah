@@ -52,6 +52,7 @@ The project is in it's intial stages and can synthesize large designs, however t
 <br>
 <br>
 <br>
+<br>
 ## Features
 - [x] Trace dumping (VCD)
 
