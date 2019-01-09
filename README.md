@@ -18,6 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
+GCC 5+ (or 4+ with stdc++ libs linked)
 Python 3.0+
 Swig
 Verilator
@@ -31,12 +32,17 @@ Currently Nirah is a standalone script but in future it will be a utility called
 ```
 git clone https://github.com/AaronKel/Nirah.git
 cd Nirah
-python3 nirah.py up_counter.v
+python3 nirah.py RTL/up_counter.v
 ```
 This will generate a wrapped libary that you can perform tests on an example of this is shown in the following:
 
 ```
-python3 up_counter_tb.py
+python3 TESTBENCH/counter_tb.py
+```
+or to dump a VCD or the DUT run
+
+```
+python3 TESTBENCH/counter_vcd_tb.py
 ```
 
 ## Example
