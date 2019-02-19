@@ -72,8 +72,11 @@ else:
     verilator_root = verilator_root_enviroment
 
 verilator_files = " ".join(args.files)
-verilator_args = args.verilator
-verilator_args += nirah_opt
+if args.verilator is not None:
+    verilator_args = ""+str(args.verilator)
+    verilator_args += nirah_opt
+else:
+    verilator_args = ""
 
 cmd = "verilator -Wno-fatal --cc {VERILATOR_FILES} {VERILATOR_ARGS}".format(
     VERILATOR_FILES=verilator_files, VERILATOR_ARGS=verilator_args)
