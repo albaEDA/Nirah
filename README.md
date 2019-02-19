@@ -70,6 +70,7 @@ The project is in it's intial stages and can synthesize large designs, however t
   Use with --swig="...", --gcc="...", etc
 
 - [x] Complex examples
+
   Added SHA256 example
 
 - [ ] Multi-threaded. (Compiles but is slower than single threaded)
