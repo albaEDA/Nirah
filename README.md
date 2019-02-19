@@ -32,18 +32,17 @@ Currently Nirah is a standalone script but in future it will be a utility called
 ```
 git clone https://github.com/AaronKel/Nirah.git
 cd Nirah
-python3 nirah.py RTL/up_counter.v
+python nirah.py RTL/sha256_rtl/sha256.v -O3 --verilator="-IRTL/sha256_rtl"
 ```
-This will generate a wrapped libary that you can perform tests on an example of this is shown in the following:
+This will generate a wrapped libary that you can perform tests on. You will need to move the generated python file from obj_dir to TESTBENCH/sha256_tb aswell as the shared _sha256.o. An example of this is shown in the following:
 
 ```
-python3 TESTBENCH/counter_tb.py
+mv obj_dir/sha256.py TESTBENCH/sha256_tb/
+mv TESTBENCH/_sha256.so TESTBENCH/sha256_tb/
+python TESTBENCH/sha256_tb/sha256_tb.py
 ```
-or to dump a VCD or the DUT run
+view sha256_tb.py for VCD dumping code.
 
-```
-python3 TESTBENCH/counter_vcd_tb.py
-```
 
 ## Example
 <img src="https://github.com/AaronKel/Nirah/raw/e4189df154ed1a72a64ef0d4a1f652b2dbac26af/nirah_autocomplete.gif" alt="Nirah" align="left">
@@ -70,9 +69,10 @@ The project is in it's intial stages and can synthesize large designs, however t
 
   Use with --swig="...", --gcc="...", etc
 
-- [ ] Multi-threaded. (Compiles but is slower than single threaded)
+- [x] Complex examples
+  Added SHA256 example
 
-- [ ] Complex examples
+- [ ] Multi-threaded. (Compiles but is slower than single threaded)
 
 - [ ] Nirah library for verilog helper features
 
