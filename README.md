@@ -66,9 +66,11 @@ The project is in it's intial stages and can synthesize large designs, however t
 
 - [x] Multi-dimensional Array
 
-- [ ] Multi-threaded. (Compiles but is slower than single threaded)
+- [x] Command line args
 
-- [ ] Command line args
+  Use with --swig="...", --gcc="...", etc
+
+- [ ] Multi-threaded. (Compiles but is slower than single threaded)
 
 - [ ] Complex examples
 
