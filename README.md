@@ -88,3 +88,4 @@ See also the list of [contributors](https://github.com/AaronKel/nirah/contributo
 ## Acknowledgments
 
 * Inspiration from sin00b with [VerilatorGen.rb](https://github.com/sin00b/VerilatorGen.rb) a ruby wrapper for Verilator
+* Joachim Strombergson for allowing the redistribution of SHA256 example
